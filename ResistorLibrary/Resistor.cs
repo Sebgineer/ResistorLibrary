@@ -44,7 +44,7 @@ namespace ResistorLibrary
             this.band[band] = color;
         }
 
-        public int CalculateOhm()
+        public int Ohm()
         {
             string bandTogether = "";
             int ohm = 0;
@@ -56,12 +56,6 @@ namespace ResistorLibrary
             ohm *= (int)this.multiplier;
             return ohm;
         }
-
-        public void FindResistor()
-        {
-
-        }
-
         #endregion
 
         #region Enum
